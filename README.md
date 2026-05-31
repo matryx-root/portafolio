@@ -27,7 +27,7 @@ Despues de activar Pages, el sitio deberia quedar disponible en:
 
 `https://matryx-root.github.io/portafolio/`
 
-## Pendientes recomendados
+## Mejora continua
 
-- Reemplazar el enlace de LinkedIn por el perfil publico con formato `https://www.linkedin.com/in/...`.
+- Mantener GitHub, LinkedIn y el portafolio actualizados.
 - Agregar correo profesional o CV cuando este disponible.
