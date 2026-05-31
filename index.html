@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio profesional de Simon Sebastian Velasquez Carcamo, desarrollador Android trainee con proyectos en Kotlin, API REST y MySQL.">
+    <title>Simon Sebastian Velasquez | Portafolio Android</title>
+    <link rel="preload" href="assets/img/hero-alkewallet.png" as="image">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Navegacion principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">SV</span>
+        <span>Simon Velasquez</span>
+      </a>
+      <nav class="main-nav" aria-label="Secciones del portafolio">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#caso">Caso</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero-bg" src="assets/img/hero-alkewallet.png" alt="Vista conceptual de AlkeWallet con app movil, API REST y base de datos">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Portafolio tecnico Android</p>
+          <h1 id="hero-title"><span>Simon Sebastian</span><span>Velasquez Carcamo</span></h1>
+          <p class="hero-copy">Desarrollador Android trainee orientado a crear productos moviles funcionales, conectados a servicios REST y respaldados por datos relacionales.</p>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-secondary" href="https://github.com/matryx-root" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section" aria-labelledby="perfil-title">
+        <div class="section-inner split-layout">
+          <div>
+            <p class="section-kicker">Perfil profesional</p>
+            <h2 id="perfil-title">Desarrollo movil con mirada de producto</h2>
+            <p>Mi foco esta en construir aplicaciones Android claras, documentadas y probables. En AlkeWallet aplique Kotlin, XML Layouts, una API REST en Node.js/Express y persistencia en MySQL para convertir una interfaz movil en una solucion funcional.</p>
+          </div>
+          <dl class="profile-facts">
+            <div>
+              <dt>Rol objetivo</dt>
+              <dd>Talento Junior Tech</dd>
+            </div>
+            <div>
+              <dt>Especialidad</dt>
+              <dd>Android nativo, APIs y datos</dd>
+            </div>
+            <div>
+              <dt>Interes profesional</dt>
+              <dd>Fintech, e-commerce y productos transaccionales</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="proyectos" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Evidencia tecnica</p>
+            <h2 id="projects-title">Proyectos destacados</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="assets/img/project-alkewallet.png" alt="Vista previa de la aplicacion AlkeWallet Android">
+              <div class="project-body">
+                <p class="project-label">Android</p>
+                <h3>AlkeWallet Android</h3>
+                <p>Aplicacion nativa de billetera digital con registro, login, saldo, ingreso de dinero, transferencias e historial de movimientos.</p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>Kotlin</li>
+                  <li>Android XML</li>
+                  <li>API REST</li>
+                </ul>
+                <a href="https://github.com/matryx-root/AlkeWallet_android" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/img/project-api.png" alt="Diagrama visual de API REST y modelo de datos">
+              <div class="project-body">
+                <p class="project-label">Backend</p>
+                <h3>API REST AlkeWallet</h3>
+                <p>Servicio local para autenticacion, sesiones, dashboard, depositos y transferencias con persistencia relacional.</p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MySQL</li>
+                </ul>
+                <a href="https://github.com/matryx-root/AlkeWallet_android/tree/main/backend" target="_blank" rel="noreferrer">Ver backend</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/img/project-portfolio.png" alt="Vista previa del portafolio digital profesional">
+              <div class="project-body">
+                <p class="project-label">Web</p>
+                <h3>Portafolio Digital</h3>
+                <p>Sitio profesional publicado con GitHub Pages para presentar perfil, proyectos, caso de estudio y canales de contacto.</p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>GitHub Pages</li>
+                </ul>
+                <a href="https://matryx-root.github.io/portafolio/" target="_blank" rel="noreferrer">Ver publicacion</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section case-section" id="caso" aria-labelledby="case-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Caso de estudio</p>
+            <h2 id="case-title">AlkeWallet: de interfaz a producto funcional</h2>
+          </div>
+
+          <div class="case-layout">
+            <div class="case-main">
+              <h3>Problema abordado</h3>
+              <p>El desafio fue transformar una aplicacion de interfaz en una billetera digital con datos reales, control de sesion y operaciones persistentes. La solucion debia ser entendible para el usuario y revisable tecnicamente por otra persona.</p>
+
+              <h3>Solucion propuesta</h3>
+              <p>Implemente una arquitectura simple por capas: Android para la experiencia movil, API REST para reglas de negocio y MySQL para usuarios, cuentas, sesiones y transacciones. El proyecto incluye scripts SQL, clientes demo y documentacion de ejecucion.</p>
+
+              <h3>Aprendizajes principales</h3>
+              <p>El proyecto fortalecio mi comprension de integracion cliente-servidor, normalizacion de datos, manejo de errores, seguridad basica y comunicacion tecnica mediante README y evidencia de pruebas.</p>
+            </div>
+            <aside class="metrics-panel" aria-label="Metricas del caso AlkeWallet">
+              <div>
+                <strong>9</strong>
+                <span>pantallas y flujos visibles</span>
+              </div>
+              <div>
+                <strong>10</strong>
+                <span>usuarios demo para validacion</span>
+              </div>
+              <div>
+                <strong>6</strong>
+                <span>pruebas unitarias superadas</span>
+              </div>
+              <div>
+                <strong>3FN</strong>
+                <span>modelo relacional normalizado</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="habilidades" aria-labelledby="skills-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Stack y forma de trabajo</p>
+            <h2 id="skills-title">Habilidades aplicadas</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-block">
+              <h3>Mobile</h3>
+              <p>Kotlin, Android Studio, XML Layouts, Activities, navegacion, estado local y consumo HTTP.</p>
+            </div>
+            <div class="skill-block">
+              <h3>Backend</h3>
+              <p>Node.js, Express, endpoints REST, validaciones, sesiones y manejo de errores.</p>
+            </div>
+            <div class="skill-block">
+              <h3>Datos</h3>
+              <p>MySQL, Workbench, claves foraneas, restricciones, vistas y normalizacion inicial.</p>
+            </div>
+            <div class="skill-block">
+              <h3>Calidad</h3>
+              <p>Pruebas unitarias, casos limite, documentacion README, Git, GitHub y mejora continua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section target-section" aria-labelledby="target-title">
+        <div class="section-inner split-layout">
+          <div>
+            <p class="section-kicker">Proyeccion laboral</p>
+            <h2 id="target-title">Interes en Mercado Libre</h2>
+            <p>Me interesa una empresa donde productos moviles, pagos digitales, datos e infraestructura se combinan para resolver problemas reales a escala regional. Mi objetivo es crecer como perfil junior aportando claridad, aprendizaje rapido y trabajo documentado.</p>
+          </div>
+          <ul class="value-list">
+            <li>Mejoras incrementales de UX movil.</li>
+            <li>Integracion y documentacion de APIs.</li>
+            <li>Validacion de flujos transaccionales.</li>
+            <li>Colaboracion con equipos de producto y tecnologia.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
+        <div class="section-inner contact-layout">
+          <div>
+            <p class="section-kicker">Contacto</p>
+            <h2 id="contact-title">Disponible para oportunidades trainee o junior</h2>
+            <p>Este portafolio resume mi trabajo practico en desarrollo Android, backend local y bases de datos. Estoy abierto a seguir aprendiendo, colaborar en equipo y fortalecer productos digitales reales.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://github.com/matryx-root" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button button-tertiary" href="docs/Evaluacion_M7_Desarrollo_Portafolio_Digital.pdf">Evaluacion M7</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Simon Sebastian Velasquez Carcamo</p>
+      <p>Android Trainee | Kotlin | API REST | MySQL</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
